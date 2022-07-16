@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>quiz app</title>
+        <link rel="stylesheet" href="quizz.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="progress-bar"></div>
+            <div class="header">
+                <div class="heading">HTML Quiz</div>
+                <div class="total-Q">0/0</div>
+            </div>
+            <div class="body">
+                <div class="question">
+                    <ul>
+                        <li answer-no="3">
+                            <div class="q">what does HTML stands for?</div>
+                            <button type="button">Hot Mail</button>
+                            <button type="button">High Text Marker Language</button>
+                            <button type="button">Hyper Text Markup Language</button>
+                            <button type="button">Home Tool Markup Language</button>
+                        </li>
+                        <li answer-no="4">
+                            <div class="q">who is making the Web Standards?</div>
+                            <button type="button">Mozilla</button>
+                            <button type="button">Microsoft</button>
+                            <button type="button">Google</button>
+                            <button type="button">The World Wide Web Consortium</button>
+                        </li>
+                        <li answer-no="4">
+                            <div class="q">A GIF format is/has....</div>
+                            <button type="button">256 colors</button>
+                            <button type="button">A large size than jpeg.</button>
+                            <button type="button">Lossless</button>
+                            <button type="button">All are correct</button>
+                        </li>
+                        <li answer-no="1">
+                            <div class="q">Which tag whould insert a grafic into a Web page?</div>
+                            <button type="button">img src=Glass.jpeg</button>
+                            <button type="button">p...Glass.jpeg</button>
+                            <button type="button">img file=Glass.jpeg</button>
+                            <button type="button">Picture=Glass.jpeg</button>
+                        </li>
+                        <li answer-no="2">
+                            <div class="q">Which format is used for exchanging files over the internet</div>
+                            <button type="button">SPV</button>
+                            <button type="button">FTP</button>
+                            <button type="button">JPG</button>
+                            <button type="button">FTR</button>
+                        </li>
+                        <li answer-no="2">
+                            <div class="q">Which is the default text size of internet Web page text?</div>
+                            <button type="button">h1</button>
+                            <button type="button">h3</button>
+                            <button type="button">h4</button>
+                            <button type="button">h6</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="time"></div>
+                <button type="button" onclick="showQ()" id="showQ">Next</button>
+                <button type="button" onclick="result(true)" id="result" style="display: none;">Submit</button>
+            </div>
+        </div>
+        <script src="quizz.js"></script>
+    </body>
+</html>
